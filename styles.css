@@ -50,7 +50,7 @@ img {
     width: 100%;
 }
 
-#form {
+#formPart {
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -81,4 +81,51 @@ img {
 
 #last {
     margin-top: 8vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vh
+}
+
+.row {
+    display: flex;
+}
+
+.labels {
+    /* font-weight: 100; */
+    font-size: 1.3vh;
+    color: rgb(128, 127, 127);
+}
+
+.pair {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+#last-text {
+    display: flex;
+    gap: 5px;
+    margin-left: 5vh;
+}
+
+#login {
+    color: #6b8158;
+    font-weight: 600;
+}
+
+button {
+    background-color: #6b8158;
+    color: white;
+    margin-left: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 14px 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: 900;
 }
