@@ -51,4 +51,18 @@ img {
 
 #form {
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#form-top {
+    flex: 2;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#form-bottom {
+    flex: 1;
+    background-color: rgb(226, 224, 224);
 }
