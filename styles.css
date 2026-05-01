@@ -15,7 +15,7 @@ body {
     display: flex;
     position: absolute;
     top: 0;
-    margin-top: 15vh;
+    margin-top: 25vh;
 }
 
 img {
@@ -37,15 +37,16 @@ img {
 }
 
 #imgLogo {
-    height: 20vh;
+    height: 14vh;
     width: auto;
+    padding: 10px 0px;
 }
 
 #logoImage {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.459);
+    background-color: rgba(0, 0, 0, 0.486);
     width: 100%;
 }
 
