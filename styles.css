@@ -60,9 +60,24 @@ img {
     flex: 2;
     background-color: white;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-weight: 800;
+    font-size: 2.5vh;
 }
 
 #form-bottom {
     flex: 1;
     background-color: rgb(226, 224, 224);
+}
+
+#top-form-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    margin-right: 30vh;
+}
+
+#last {
+    margin-top: 8vh;
 }
