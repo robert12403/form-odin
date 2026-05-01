@@ -29,49 +29,49 @@
                     <p>You should <em>sign up now</em>.</p>
                     <p id="last">Let's do this!</p>
                 </div>
-                <form action="example.com/path">
+                <form action="example.com/path" id="myForm">
                     <div class="row">
                         <div class="pair">
                             <label for="first_name" class="labels">FIRST NAME</label>
-                            <input type="text" id="first_name">
+                            <input type="text" id="first_name" placeholder="John" required>
                         </div>
 
                         <div class="pair">
                             <label for="last_name" class="labels">LAST NAME</label>
-                            <input type="text" id="last_name">
+                            <input type="text" id="last_name" placeholder="Smith" required>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="pair">
                             <label for="email" class="labels">EMAIL</label>
-                            <input type="email" id="email">
+                            <input type="email" id="email" placeholder="email@gmail.com" required>
                         </div>
 
                         <div class="pair">
                             <label for="phone" class="labels">PHONE NUMBER</label>
-                            <input type="tel" id="phone">
+                            <input type="tel" id="phone" placeholder="5550127" required>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="pair">
                             <label for="password" class="labels">PASSWORD</label>
-                            <input type="password" id="password">
+                            <input type="password" id="password" required>
                         </div>
 
                         <div class="pair">
                             <label for="passwordC" class="labels">CONFIRM PASSWORD</label>
-                            <input type="password" id="passwordC">
+                            <input type="password" id="passwordC" required>
                         </div>
                     </div>
                 </form>
             </div>
             <div id="form-bottom">
-                <button>Create Account</button>
+                <button type="submit" form="myForm">Create Account</button>
                 <div id="last-text">
                     <div>Already have an account?</div>
-                    <div id="login">Log in</div>
+                    <div><a href="">Log in</a></div>
                 </div>
             </div>
         </div>
